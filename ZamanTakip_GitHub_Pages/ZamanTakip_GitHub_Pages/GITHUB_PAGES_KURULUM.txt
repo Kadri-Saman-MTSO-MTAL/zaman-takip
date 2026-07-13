@@ -1,0 +1,20 @@
+ZAMAN TAKIP - GITHUB PAGES KURULUMU
+
+1. GitHub hesabinizda yeni ve PUBLIC bir depo olusturun.
+   Onerilen depo adi: zaman-takip
+
+2. Bu klasordeki dosyalarin TAMAMINI deponun kok dizinine yukleyin.
+   ZIP dosyasini yuklemeyin; once ZIP'i cikartin.
+
+3. Depoda Settings > Pages yoluna gidin.
+   Source: Deploy from a branch
+   Branch: main
+   Folder: /(root)
+   Save
+
+4. Yayin adresi genellikle:
+   https://KULLANICI_ADINIZ.github.io/zaman-takip/
+
+5. Firebase Console > Authentication > Settings > Authorized domains alanina:
+   KULLANICI_ADINIZ.github.io
+   ekleyin. https:// ve /zaman-takip eklemeyin.
